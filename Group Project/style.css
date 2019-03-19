@@ -1,0 +1,34 @@
+.header-logo {
+    float: left;
+}
+#logo-img {
+    height: 200px;
+    width: 300px;
+}
+.header-nav {
+    margin-top: 0.0001px;
+    background-color: forestgreen;
+    width: 620px;
+    height: 80px;
+}
+.nav-buttons {
+    color: snow;
+    padding: 20px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 28px;
+    background-color: forestgreen;
+    border: none;
+    margin: 0px;
+}
+
+.nav-buttons:hover {
+    text-shadow: 0.7px 0.7px 0.5px white;
+}
+
+#home {
+    border-bottom: 5px solid white;
+}
+
+body {
+    background-color: honeydew;
+}
