@@ -48,25 +48,67 @@ body {
 }
 
 .gallery-button-right {
+    position: relative;
     border-color: transparent black;
     border-style: solid;
     border-width: 20px 0px 20px 20px;
     height: 0px;
     width: 0px;
     float: right;
+    top: 240px;
+    right: -20px;
+
 }
 
-.galley-button-left {
+.gallery-button-left {
+    position: relative;
     border-color: transparent black;
     border-style: solid;
     border-width: 20px 20px 20px 0px;
     height: 0px;
     width: 0px;
     float: left;
+    top: 240px;
+    left: -20px;
 }
+
+.gallery-button-left:hover {
+    cursor: pointer;
+    border-color: transparent grey;
+}
+
+.gallery-button-right:hover {
+    cursor: pointer;
+    border-color: transparent grey;
+}
+
 
 .pics {
     width:500px;
     height:500px;
     border: 2px solid forestgreen;
+}
+
+.articles {
+    position: relative;
+    top: 50%;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 20px;
+    line-height: 1.8;
+
+}
+
+.first-article {
+    position: relative;
+    top: 400px;
+    left: -800px;
+    overflow: auto;
+    height: 800px;
+    width: 400px;
+    border: 2px solid forestgreen;
+
+}
+
+.pics {
+    display: none;
 }
