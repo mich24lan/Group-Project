@@ -1,0 +1,272 @@
+/*image one*/
+.container {
+  position: absolute;
+  width: 45%;
+  left:500px;
+  top:160px;
+}
+
+.image {
+  display: block;
+  width: 45%;
+  height: auto;
+
+
+
+}
+
+
+
+.container:hover .overlay {
+  height: 100%;
+
+}
+
+
+.text1 {
+  position:relative;
+  top:100px;
+  text-align: center ;
+
+  font-size: 2em;
+}
+/*image two*/
+
+.containerTwo {
+  position: absolute;
+  width: 45%;
+  right:0px;
+  top:160px;
+}
+
+.image {
+  display: block;
+  width: 45%;
+  height: auto;
+
+
+
+}
+
+
+
+.containerTwo:hover .overlay {
+  height: 100%;
+}
+
+
+
+/*image three*/
+
+.containerThree {
+  position: absolute;
+  width: 45%;
+  left:500px;
+  top:460px;
+
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: auto;
+
+
+
+}
+
+
+.containerThree:hover .overlay {
+  height: 100%;
+}
+
+
+
+/*image four*/
+
+.containerFour {
+  position: absolute;
+  width: 45%;
+  right: 0px;
+  top:460px;
+
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: auto;
+
+
+
+}
+
+
+.containerFour:hover .overlay {
+  height: 100%;
+}
+
+
+
+/*image five*/
+
+.containerFive {
+  position: absolute;
+  width: 45%;
+  right: 0px;
+  top:760px;
+
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: auto;
+
+
+
+}
+
+
+.containerFive:hover .overlay {
+  height: 100%;
+}
+
+
+/*image six*/
+
+.containerSix {
+  position: absolute;
+  width: 45%;
+  left: 500px;
+  top:760px;
+
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: auto;
+
+
+
+}
+
+
+.containerSeven:hover .overlay {
+  height: 100%;
+}
+
+
+/*pictures seven*/
+.containerSeven {
+  position: absolute;
+  width: 45%;
+  left: 500px;
+  top:1360px;
+
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: auto;
+
+
+
+}
+
+
+.containerSeven:hover .overlay {
+  height: 100%;
+}
+
+
+/*pictures eight*/
+.containerEight {
+  position: absolute;
+  width: 45%;
+  left: 500px;
+  top:1060px;
+
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: auto;
+
+
+
+}
+
+
+.containerEight:hover .overlay {
+  height: 100%;
+}
+
+
+/*pictures nine*/
+.containerNine {
+  position: absolute;
+  width: 45%;
+  right: 0px;
+  top:1060px;
+
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: auto;
+
+
+
+}
+
+
+
+.containerNine:hover .overlay {
+  height: 100%;
+}
+
+
+/*pictures ten*/
+.containerTen {
+  position: absolute;
+  width: 45%;
+  right: 0px;
+  top:1360px;
+
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: auto;
+
+
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:antiquewhite;
+  overflow: hidden;
+  width: 41%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.containerTen:hover .overlay {
+  height: 100%;
+}
+
+
+body  {
+  background-image: url("http://bmta.info/wp-content/uploads/2018/11/texturesrhtexturescom-brown-dark-hardwood-floor-pattern-texture-texturesrhtexturescom-wood-s-on-this-seamless-wooden-background-www-rhmyfreetexturescom-wood-dark-hardwood-floor-pattern.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
