@@ -266,7 +266,41 @@
 }
 
 
-body  {
+body {
   background-image: url("http://bmta.info/wp-content/uploads/2018/11/texturesrhtexturescom-brown-dark-hardwood-floor-pattern-texture-texturesrhtexturescom-wood-s-on-this-seamless-wooden-background-www-rhmyfreetexturescom-wood-dark-hardwood-floor-pattern.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.header-logo {
+  float: left;
+}
+#logo-img {
+  height: 16.667em;
+  width: 25em;
+}
+
+.header-nav {
+  margin-top: 0.0001px;
+  background-color: forestgreen;
+  width: 40em;
+  height: 5em;
+}
+.nav-buttons {
+  color: snow;
+  padding: 20px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 1.75em;
+  background-color: forestgreen;
+  border: none;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.nav-buttons:hover {
+  text-shadow: 0.7px 0.7px 0.5px white;
+}
+
+#adopt {
+  border-bottom: 5px solid white;
+}

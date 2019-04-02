@@ -15,10 +15,11 @@
     color: snow;
     padding: 20px;
     font-family: 'ZCOOL XiaoWei', serif;
-    font-size: 28px;
+    font-size: 1.75em;
     background-color: forestgreen;
     border: none;
     margin: 0px;
+    cursor: pointer;
 }
 
 .nav-buttons:hover {
@@ -31,6 +32,10 @@
 
 body {
     background-color: honeydew;
+    /*background-image: url("http://bmta.info/wp-content/uploads/2018/11/texturesrhtexturescom-brown-dark-hardwood-floor-pattern-texture-texturesrhtexturescom-wood-s-on-this-seamless-wooden-background-www-rhmyfreetexturescom-wood-dark-hardwood-floor-pattern.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+
 }
 
 .gallery-container {
