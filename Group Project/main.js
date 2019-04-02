@@ -26,4 +26,17 @@ $(document).ready(function() {
         index--;
 
     });
+
+    window.setInterval(function(){
+        if(index === 3) {
+            index = 0;
+            picList[3].hide();
+            picList[index].fadeIn(300);
+        }
+        if(index >= 0) {
+            index++;
+            picList[index-1].hide();
+            picList[index].fadeIn(300);
+        }
+    }, 5000);
 });
